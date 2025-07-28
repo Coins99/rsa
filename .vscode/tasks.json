@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build RSA",
+            "type": "cppbuild",
+            "command": "cl.exe",
+            "args": [
+                "/Fe:${workspaceFolder}\\build\\rsa_encrypt.exe",
+                "${workspaceFolder}\\src\\rsa_encrypt.c"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}\\build"
+            },
+            "problemMatcher": ["$msCompile"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compile RSA encryption program with MSVC"
+        }
+    ]
+}

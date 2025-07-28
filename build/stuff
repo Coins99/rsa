@@ -1,1 +1,28 @@
+Successful output should look like this:
+
+
+🔄 Starting encryption...
+Input: test1.txt
+Output: test1_encrypted_3.enc
+Keys: test1_keys_3.key
+
+--- Encryption Results ---
+Encryption successful!
+Public Key (n, e): (1391147, 7)
+Private Key (d): 991543
+Encrypted 4898 characters
+
+🎉 SUCCESS! File encrypted successfully!
+📁 Encrypted file: C:/Users/zhouj/OneDrive/Documents/VScode stuff/rsa/tests\test1_encrypted_3.enc
+🔑 Key file: C:/Users/zhouj/OneDrive/Documents/VScode stuff/rsa/tests\test1_keys_3.key
+
+⚠️  IMPORTANT: Keep the key file safe! You need it to decrypt the file.
+--- RSA Key Information ---
+p=577
+q=2411
+n=1391147
+e=7
+d=991543
+length=4898
+--- End of Key Information ---
 
